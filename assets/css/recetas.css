@@ -1,24 +1,11 @@
 .recetas{
-    background: #dab997;
-    display: flex;
-    flex-wrap: wrap;
-   
-}
+    min-height: 100vh;
+    background-color: var(--rosa);
 
-@media screen and (min-width: 0){
-    .recetas{
-        padding: 5rem 0 0 1rem;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .recetas{
-        padding: 5rem 0 0 2.5rem;
-    }
-}
-
-@media screen and (min-width: 992px){
-    .recetas{
-        padding: 5rem 0 0 5rem;
-    }
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "card card card"
+    "card card card"
+    ;
 }

@@ -1,7 +1,64 @@
-:root{
+:root {
     --blanco: #f9f9f9;
     --rojo: #da2b1f;
+    --rojo-oscuro: #b31d12;
     --negro: #000000;
     --rosa: #dab997;
     --gris: #808080;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Asigna un color diferente */
+    body {
+        background-color: red;
+    }
+
+    .recetas {
+        min-height: 100vh;
+        background-color: var(--rosa);
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "card"
+        ;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Asigna un color diferente */
+    body {
+        background-color: orange;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Asigna un color diferente */
+    body {
+        background-color: yellow;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Asigna un color diferente */
+    body {
+        background-color: green;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* Asigna un color diferente */
+    body {
+        background-color: blue;
+    }
 }

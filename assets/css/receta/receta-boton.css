@@ -1,13 +1,12 @@
 .receta__boton{
-    background:#DA2B1F;
+    background-color: var(--rojo);
     border: none;
+    padding: 10px;
+    color: var(--blanco);
     border-radius: 5px;
-    color: #fdfdfd;
-    padding: 1rem;
-    transition: all .1s ease-in-out ;
+    transition: all ease-in-out 200ms;
 }
 
 .receta__boton:hover{
-    cursor: pointer;
-    background: #9f1010;
+    background-color: var(--rojo-oscuro);
 }
