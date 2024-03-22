@@ -1,21 +1,26 @@
-.cabecera { 
+.cabecera {
     align-items: center;
-    background: #f9f9f9;
+    background: var(--blanco);
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 10px 2rem 10px 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 1000;
 }
 
 @media screen and (min-width:0) {
-    .cabecera{
+    .cabecera {
         padding: 0 1rem;
         justify-content: center;
     }
 }
 
 @media screen and (min-width:768px) {
-    .cabecera{
+    .cabecera {
         padding: 0 5rem;
         justify-content: space-between;
     }
