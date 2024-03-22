@@ -1,0 +1,6 @@
+.menu__link--activo{
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: bold;
+    color: var(--negro);
+}

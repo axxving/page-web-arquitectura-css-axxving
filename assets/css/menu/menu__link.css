@@ -1,0 +1,11 @@
+.menu__link{
+    text-decoration: none;
+    padding-right: 10px;
+    color: var(--negro);
+    transition: all ease-in-out 200ms;
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+    color: var(--gris);
+}
