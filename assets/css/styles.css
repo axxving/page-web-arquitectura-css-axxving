@@ -15,6 +15,13 @@
         background-color: red;
     }*/
 
+    .rodapie{
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
     .recetas {
         min-height: 100vh;
         background-color: var(--rosa);
@@ -25,6 +32,10 @@
             "card"
         ;
     }
+
+    .rodapie__descripcion{
+        margin-left: 0rem;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -34,6 +45,17 @@
     body {
         background-color: orange;
     }*/
+
+    .rodapie{
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .rodapie__descripcion{
+        margin-left: 0rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -43,6 +65,17 @@
     body {
         background-color: yellow;
     } */
+
+    .rodapie{
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .rodapie__descripcion{
+        margin-left: 0rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
