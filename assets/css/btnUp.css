@@ -1,0 +1,19 @@
+/*TODO Botones*/
+.btn-up {
+  background-color: var(--rojo);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  padding: 10px 15px;
+  position: fixed;
+  bottom: -100px;
+  right: 0;
+  z-index: 1000;
+  margin: 20px;
+  cursor: pointer;
+  transition: bottom 0.3s ease;
+
+  .bi-arrow-up {
+    margin-right: 0px;
+    color: var(--blanco);
+  }
+}

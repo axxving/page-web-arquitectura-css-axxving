@@ -7,6 +7,10 @@
     --gris: #808080;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
