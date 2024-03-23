@@ -17,3 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+const menuToggle = document.getElementById('mobile-menu');
+const headerMenu = document.querySelector('.header__menu');
+
+menuToggle.addEventListener('click', () => {
+  headerMenu.classList.toggle('active');
+});

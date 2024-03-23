@@ -45,6 +45,11 @@ html{
         width: 10rem;
         height: 10rem;
     }
+
+    .header__menu{
+        width: 100%;
+        display: none;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -64,6 +69,11 @@ html{
 
     .rodapie__descripcion{
         margin-left: 0rem;
+    }
+
+    .header__menu{
+        width: 100%;
+        display: none;
     }
 }
 
