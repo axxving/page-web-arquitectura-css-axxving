@@ -36,6 +36,11 @@
     .rodapie__descripcion{
         margin-left: 0rem;
     }
+
+    .persona__imagen{
+        width: 10rem;
+        height: 10rem;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
