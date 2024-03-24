@@ -95,6 +95,11 @@ html{
     .rodapie__descripcion{
         margin-left: 0rem;
     }
+
+    .header__menu{
+        width: 100%;
+        display: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
